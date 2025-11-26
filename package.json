@@ -1,0 +1,16 @@
+{
+  "name": "com.quanty-bandit.editor-extensions",
+  "version": "1.0.0",
+  "displayName": "qb.Editor-Extensions",
+  "description": "Attributes and editor utilities",
+  "unity": "6000.2",
+  "keywords": [
+    "Attributes",
+    "Utilities"
+  ],
+  "author": {
+    "name": "quanty bandit",
+    "email": "pascal@quantybandit.com",
+    "url": "https://quantybandit.com"
+  }
+}
