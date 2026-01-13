@@ -1,20 +1,9 @@
-#if UNITY_EDITOR
-using UnityEngine;
 using System;
 using UnityEditor;
-#endif
-namespace qb.Utility.Editor
+using UnityEngine;
+using UnityEngine.UIElements;
+namespace qb.Utility
 {
-    public static class InputDialog
-    {
-#if UNITY_EDITOR
-        public static string Show(string title, string description, string inputText, string okButton = "OK", string cancelButton = "Cancel")
-        {
-            return EditorInputDialog.Show(title, description, inputText, okButton, cancelButton);
-        }
-#endif
-    }
-#if UNITY_EDITOR
     public class EditorInputDialog : EditorWindow
     {
         string description, inputText;
@@ -145,5 +134,4 @@ namespace qb.Utility.Editor
         }
         #endregion Show()
     }
-#endif
 }
